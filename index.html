@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-<link rel="stylesheet" href="estilo.css">
+
     <head>
+        <link rel="stylesheet" href="estilo.css">
         <title>Portafolio </title>
     </head> 
     <body>
@@ -21,7 +22,6 @@
     <strong><p> Technologies</p></strong>
 
     <table>
-    <table >
         <thead>
             </tr>
                 <th>Front-End</th>
@@ -53,7 +53,6 @@
                 <td></td>
                 <td>REST</td>
             </tr>
-        </table>
     </table>
         
     <strong><p>Social Snakes</p></strong>
@@ -63,20 +62,31 @@
         <p>Social Media App made in Python <a href="https://www.youtube.com/">youtube</a> </p>  
 <br>
         <strong><p>Contact Me</p></strong>
-
-        <div>
-            <label>Name: </label>
-                    <input type="text" name="name">
-            <label>Email:</label>
-                    <input type="text" name="Email">        
-        </div>
-<br>
-        <div>
-            <label>Message:</label>
-                <textarea name="comment" cols="30" rows="1"></textarea>
-        </div>
+    <form action="/process" method="post">
+            <div>
+                <label>Name: </label>
+                <input type="text" name="name">
+            </div>
+        <br>        
+            <div>
+                <label>Email:</label>
+                <input type="text" name="Email">        
+            </div>
         <br>
-        <input type="submit" value="Send Message" >
+            <div>
+                <label>Message:</label>
+                <textarea name="comment" cols="30" rows="1"></textarea>
+            </div>
+        <br>
+            <input type="submit" value="Send Message" >
+    <form>
 
+    <div>
+        <div class="burbujas">
+            <div class="burbuja"></div> 
+    </div>  
+    
         <body>
         <html>
+            
+            
